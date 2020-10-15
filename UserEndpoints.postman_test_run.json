@@ -1,0 +1,59 @@
+{
+	"id": "66304b64-4e50-4ddb-858a-35be3529fe24",
+	"name": "UserEndpoints",
+	"timestamp": "2020-10-15T18:40:26.506Z",
+	"collection_id": "ccb3638e-668f-4f61-8c49-80a82873b87e",
+	"folder_id": 0,
+	"environment_id": "8a37555b-54bb-484c-969f-86dee196538e",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bf3cc233-b0b1-4b5e-8b55-1e4416adc88a",
+			"name": "User Login",
+			"url": "http://161.35.202.130:3100/users/login",
+			"time": 413,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Check if status code is 201": true,
+				"Response contains": true
+			},
+			"testPassFailCounts": {
+				"Check if status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				413
+			],
+			"allTests": [
+				{
+					"Check if status code is 201": true,
+					"Response contains": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 413,
+	"collection": {
+		"requests": [
+			{
+				"id": "bf3cc233-b0b1-4b5e-8b55-1e4416adc88a",
+				"method": "POST"
+			},
+			{
+				"id": "1343c1ef-6fbf-4a63-8409-ae60818fc992",
+				"method": "GET"
+			}
+		]
+	}
+}
